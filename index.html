@@ -15,12 +15,12 @@
   <header>
     <div class="title">
       <h1 class="title-main">Facilito Blog</h1>
-      <h2 class="title-sub">Noticias del mundo tech</h2>
+      <h4 class="title-sub">Noticias del mundo tech</h4>
     </div>
-    <button id="menu-toggle" class="menu-toggle" onclick="changeState()" aria-label="Abrir menú">
+    <div id="menu-toggle" class="menu-toggle" onclick="changeState()">
       <div class="menu"></div>
-    </button>
-    <nav id="nav-menu" class="nav-menu">
+    </div>
+    <div id="nav-menu" class="nav-menu">
         <ul>
           <li><a href="#" class="nav-menu--item">Home</a></li>
           <li><a href="#" class="nav-menu--item">Noticias</a></li>
@@ -36,14 +36,14 @@
     <section class="layout">
       <div class="layout-main">
         <article class="layout-main--article">
-          <h3 class="section-name">Actualidad</h3>
-          <figure>
+          <h2 class="section-name">Actualidad</h2>
+          <div class="img-container">
             <img
-              src="images/community.png" alt=""
+              src="images/community.png"
               class="article-img">
-          </figure>
-          <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/60312013123f993d795ce208">Oleg Shcherba</a>
-            from <a href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+          </div>
+          <div class="img-caption">Illustration by <a href="https://icons8.com/illustrations/author/60312013123f993d795ce208">Oleg Shcherba</a>
+            from <a href="https://icons8.com/illustrations">Ouch!</a></div>
           <p class="article-category">Noticias</p>
           <h4 class="article-title"><a href="https://codigofacilito.com/comunidades" target="_blank">Colaboración con comunidades: Trabajamos en conjunto para que tu comunidad crezca, con recursos de Código Facilito.</a></h4>
           <p class="article-author">Team Código Facilito</p>
@@ -51,15 +51,8 @@
         <!---Right-->
         <div>
           <section class="section-calendar">
-            <h3 class="section-name">Agenda</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Evento</th>
-                  <th>Fecha</th>
-                  <th>Hora</th>
-                </tr>
-              </thead>
+            <h2 class="section-name">Agenda</h2>
+              <table>
                 <tr>
                   <td>Vacaciones con Cody</td>
                   <td>15/04/2021</td>
@@ -74,31 +67,31 @@
             </section>
             <div class="layout-right">
               <article>
-                <h3 class="section-name">Novedades</h3>
+                <h2 class="section-name">Novedades</h2>
                 <p class="article-category">Soft skills</p>
                 <h4 class="article-title"><a href="https://codigofacilito.com/articulos/equivocarse" target="_blank">¿Cómo perder el miedo a cometer errores?</a></h4>
                 <p class="article-author">Por Hameyalli Elizalde</p>
               </article>
-              <figure>
+              <div class="img-container">
                 <img
-                  src="images/abstract-error.png" alt=""
+                  src="images/abstract-error.png"
                   class="article-img article-img--small">
-              </figure>
+              </div>
             </div>
           </div>
         </div>
 
-      <h3 class="section-name">Destacados</h3>
+      <h2 class="section-name">Destacados</h2>
       <section class="layout-down">
 
         <article class="layout-down--article">
-          <figure>
+          <div class="img-container">
             <img
-              src="images/abstract-great-ideas.png" alt=""
+              src="images/abstract-great-ideas.png"
               class="article-img">
-          </figure>
-          <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/5ddea3b001d036001345e529">Dmitry Nikulnikov</a> from <a
-            href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+          </div>
+          <div class="img-caption">Illustration by <a href="https://icons8.com/illustrations/author/5ddea3b001d036001345e529">Dmitry Nikulnikov</a> from <a
+            href="https://icons8.com/illustrations">Ouch!</a></div>
           <p class="article-category">Inspiración</p>
           <h4 class="article-title"><a href="https://codigofacilito.com/articulos/side-projects" target="_blank">Un side project cambió mi vida</a></h4>
           <p class="article-author">Por Uriel Hernández</p>
@@ -106,13 +99,13 @@
         <!----->
 
         <article class="layout-down--article">
-          <figure>
+          <div class="img-container">
             <img
-              src="images/security-2.png" alt=""
+              src="images/security-2.png"
               class="article-img">
-          </figure>
-          <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/5e7e24ce01d0360013bb7479">Natasha Remarchuk</a> from <a
-            href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+          </div>
+          <div class="img-caption">Illustration by <a href="https://icons8.com/illustrations/author/5e7e24ce01d0360013bb7479">Natasha Remarchuk</a> from <a
+            href="https://icons8.com/illustrations">Ouch!</a></div>
           <p class="article-category">Seguridad</p>
           <h4 class="article-title"><a href="https://codigofacilito.com/articulos/tips-ssh" target="_blank">5 Tips Para Mejorar La Seguridad SSH</a></h4>
           <p class="article-author">Por Eduardo Ismael García</p>
@@ -120,13 +113,13 @@
         <!----->
 
         <article class="layout-down--article">
-          <figure>
+          <div class="img-container">
             <img
-              src="images/abstract.png" alt=""
+              src="images/abstract.png"
               class="article-img">
-            </figure>
-          <figcaption>Illustration by <a href="https://icons8.com/illustrations/author/5eb29f8301d0360018f18b01">Maria Shukshina</a> from <a
-            href="https://icons8.com/illustrations">Ouch!</a></figcaption>
+            </div>
+          <div class="img-caption">Illustration by <a href="https://icons8.com/illustrations/author/5eb29f8301d0360018f18b01">Maria Shukshina</a> from <a
+            href="https://icons8.com/illustrations">Ouch!</a></div>
           <p class="article-category">Accesibilidad</p>
           <h4 class="article-title"><a href="https://codigofacilito.com/articulos/basicos-accesibilidad-web" target="_blank">Básicos de la Accesibilidad Web</a></h4>
           <p class="article-author">Por Cristina Rueda </p>
@@ -141,7 +134,6 @@
           <h4 class="form-title">Suscríbete a nuestro Newsletter</h4>
           <form>
             <fieldset class="form-fieldset">
-              <legend>Marca los temas que más te interesan:</legend>
               <div class="form-fieldset field">
                 <input id="tecnología" type="checkbox" name="topics" value="tecnología" />
                 <label for="tecnología">Tecnología</label><br />
@@ -160,7 +152,6 @@
               </div>
             </fieldset>
             <div class="form-field block">
-              <label for="email">Correo electrónico</label>
               <input type="email" class="form-input" id="email" placeholder="Escribe aquí tu correo electrónico">
               <input type="submit" value="Suscribirse" class="form-submit">
             </div>
@@ -169,11 +160,11 @@
         <section class="layout-social">
           <ul class="social-list">
             <li class="social-icon"><a href="https://twitter.com/codigofacilito" target="_blank"><img
-                  src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" alt="Ir al perfil de CódigoFacilito en Twitter" /></a></li>
+                  src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/></a></li>
             <li class="social-icon"><a href="https://www.facebook.com/codigofacilito" target="_blank"><img
-                  src="https://img.icons8.com/windows/32/000000/facebook-f--v1.png" alt="Ir al perfil de CódigoFacilito en Facebook" /></a></li>
+                  src="https://img.icons8.com/windows/32/000000/facebook-f--v1.png"/></a></li>
             <li class="social-icon"><a href="https://www.instagram.com/codigofacilito/" target="_blank"><img
-                  src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Ir al perfil de CódigoFacilito en Instagram" /></a></li>
+                  src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/></a></li>
           </ul>
         </section>
       </div>

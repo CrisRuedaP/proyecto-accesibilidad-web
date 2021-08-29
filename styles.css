@@ -155,12 +155,12 @@ body {
 
 .article-title a {
   color: var(--darker);
-  text-decoration: underline;
-  text-decoration-color: #6155A6;
+  text-decoration: none;
 }
 
 .article-title a:hover {
   color: #6155A6;
+  text-decoration: underline;
 }
 
 .article-category {
@@ -190,14 +190,14 @@ body {
   font-weight: 500;
 }
 
-figure {
+.img-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
-figcaption {
+.img-caption {
   font-size: .625rem;
 }
 
