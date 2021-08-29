@@ -190,14 +190,14 @@ body {
   font-weight: 500;
 }
 
-figure {
+.img-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
-figcaption {
+.img-caption {
   font-size: .625rem;
 }
 
