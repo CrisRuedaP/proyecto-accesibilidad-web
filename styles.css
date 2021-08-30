@@ -55,14 +55,8 @@ body {
   align-items: center;
 }
 
-.slide-content {
-  visibility: hidden;
-  width: 0;
-}
-
-.active {
-  visibility: visible;
-  width: 250px;
+.menu-toggle {
+  display: none;
 }
 
 .nav-menu li {
