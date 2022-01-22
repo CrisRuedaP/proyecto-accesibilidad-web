@@ -1,4 +1,3 @@
-
 # Curso HTML Semántico y Accesible
 
 ¡Hola! En este repositorio encontrarás el proyecto que desarrollaremos durante el curso HTML semántico y accesible de Código Facilito y también todos los recursos mencionados.
@@ -13,7 +12,7 @@ En la rama [main](https://github.com/CrisRuedaP/proyecto-accesibilidad-web/tree/
 
 ## Fuente:
 
-+ Proyecto inspirado en: [Codepen](https://codepen.io/mirandalwashburn/pen/GRJOZRp)
++ Diseño inspirado en: [Codepen](https://codepen.io/mirandalwashburn/pen/GRJOZRp)
 + Imágenes tomadas de: [Ouch!](https://iconos8.es/illustrations)
 
 ## Recursos 
@@ -46,3 +45,11 @@ En la rama [main](https://github.com/CrisRuedaP/proyecto-accesibilidad-web/tree/
         <li><a href="https://chrome.google.com/webstore/detail/funkify-%E2%80%93-disability-simu/ojcijjdchelkddboickefhnbdpeajdjg">Funkify</a></li>
     </ul>
 </details>
+
+<details>
+	<summary>&nbsp;&nbsp;&nbsp; <b>Otros Recursos</b></summary>
+    <ul>
+        <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">Mapa de Decisión para Textos Alternativos</a></li>
+    </ul>
+</details>
+
