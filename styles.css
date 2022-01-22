@@ -77,6 +77,11 @@ body {
   border-bottom: 2px solid #E4BAD4;
 }
 
+.menu-toggle {
+  /*width: 0;*/
+  /*visibility: hidden;*/
+}
+
 /* Main */
 
 .layout {

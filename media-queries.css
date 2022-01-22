@@ -33,6 +33,8 @@
     cursor: pointer;
     z-index: 1;
     display: block;
+    /*visibility: visible;*/
+    /*width: auto;*/
   }
   .menu-open .menu {
     transform: rotate(45deg);
