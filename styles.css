@@ -83,6 +83,11 @@ body {
   border-bottom: 2px solid #E4BAD4;
 }
 
+.menu-toggle {
+  /*width: 0;*/
+  /*visibility: hidden;*/
+}
+
 /* Main */
 
 .layout {
@@ -155,7 +160,8 @@ body {
 
 .article-title a {
   color: var(--darker);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #6155A6;
 }
 
 .article-title a:hover {

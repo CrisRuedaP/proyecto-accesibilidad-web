@@ -32,6 +32,8 @@
     position: fixed;
     cursor: pointer;
     z-index: 1;
+    /*visibility: visible;*/
+    /*width: auto;*/
   }
   .menu-open .menu {
     transform: rotate(45deg);
