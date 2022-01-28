@@ -24,6 +24,7 @@ En la rama [main](https://github.com/CrisRuedaP/proyecto-accesibilidad-web/tree/
         <li><a href="https://www.w3.org/WAI/about/">WAI</a></li>
         <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility">Principios de Accesibilidad Web - POUR</a></li>
         <li><a href="https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree">El Árbol de Accesibilidad</a></li>
+	<li><a href="https://developer.chrome.com/blog/full-accessibility-tree/">Árbol de Accesibilidad en Chrome DevTools</a></li>
     </ul>
 </details>
 
